@@ -1,0 +1,90 @@
+#aboutContent{
+    /* background-color: blue; */
+    padding-top: 110px;
+    height: calc(100vh - 110px);
+    position: relative;
+    /* padding-bottom: 50px; */
+}
+
+#aboutImg{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+    /* margin-bottom: 200px; */
+}
+
+#aboutText{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: brown; */
+    position: absolute;
+    right: 5%;
+    width: 40%;
+    height: 80%;
+}
+
+#aboutText p{
+    font-family: 'Poppins';
+    font-size: larger;
+    font-weight: 300;
+}
+
+.contactInfo{
+    /* background-color: red; */
+    height: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.contactInfo img{
+ height: 25px;
+ margin-right: 15px;
+}
+
+@media screen and (max-width: 710px){
+    #aboutImg{
+        display: none;
+    }
+
+    #aboutText{
+        left: 5%;
+        width: auto;
+    }
+}
+
+@keyframes loading{
+    from{
+        transform: translateY(-25px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.loading-01{
+    animation-delay: 0.10s;
+}
+
+.loading-02{
+    animation-delay: 0.20s;
+}
+
+.loading-03{
+    animation-delay: 0.30s;
+}
+
+.loading-04{
+    animation-delay: 0.40s;
+}
+
+.loading-05{
+    animation-delay: 0.50s;
+}

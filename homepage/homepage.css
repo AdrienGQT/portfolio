@@ -1,0 +1,94 @@
+
+/******* CONTENT *******/
+
+#homeContent{
+    /* background-color: blueviolet; */
+    padding-top: 89px;
+    height: calc(100vh - 89px);
+    /* text-align: center; */
+}
+
+#chooserArea{
+    /* background-color: rgb(255, 174, 0); */
+    position: absolute;
+    height: 80vh;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.choose{
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    float: left;
+    text-align: center;
+    padding: 16px;
+}
+
+@media screen and (max-width: 740px) {
+    .choose{
+        width: 100%;
+        float: none;
+        height: 25%;
+    }
+    
+}
+
+.cover{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all.2s;
+}
+
+.cover:hover{
+    /* font-size: larger; */
+    transform: translate(0, -5px);
+}
+
+.cover p{
+    filter: drop-shadow(black 5px 5px 5px);
+}
+
+@keyframes loading2{
+    from{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.loading2{
+    opacity: 0;
+    animation: 0.5s loading2 ease-out;
+    animation-fill-mode: forwards;
+}
+
+.loading-10{
+    animation-delay: 0.6s;
+}
+
+.loading-11{
+    animation-delay: 0.8s;
+}
+
+.loading-12{
+    animation-delay: 1s;
+}
+
+.loading-13{
+    animation-delay: 1.2s;
+}
+
+
