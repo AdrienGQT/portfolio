@@ -8,6 +8,13 @@
     /* text-align: center; */
 }
 
+@media screen and (max-height: 700px) {
+    #homeContent{
+        padding-top: 35px;
+        height: calc(100vh - 35px);
+    }
+}
+
 #chooserArea{
     /* background-color: rgb(255, 174, 0); */
     position: absolute;
