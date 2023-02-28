@@ -16,6 +16,7 @@ function relativePositions(){
         var mazda = (document.getElementById('mazda')).getBoundingClientRect();
         var lexus = (document.getElementById('lexus')).getBoundingClientRect();
         var bmw = (document.getElementById('bmw')).getBoundingClientRect();
+        var yaris = (document.getElementById('yaris')).getBoundingClientRect();
         var foot = (document.getElementById('foot')).getBoundingClientRect();
 
         var Rpositions = {
@@ -23,6 +24,7 @@ function relativePositions(){
             'mazda' : mazda['y'],
             'lexus' : lexus['y'],
             'bmw' : bmw['y'],
+            'yaris' : yaris['y'],
             'foot' : foot['y']
         }
     }   else if(page == 'landscape.html'){
