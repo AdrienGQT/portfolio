@@ -26,6 +26,7 @@
     right: 5%;
     width: 40%;
     height: 80%;
+    top: 114px;
 }
 
 #aboutText p{
@@ -45,6 +46,12 @@
 .contactInfo img{
  height: 25px;
  margin-right: 15px;
+}
+
+@media screen and (max-width: 1400px){
+    #aboutText{
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 710px){
@@ -88,3 +95,8 @@
 .loading-05{
     animation-delay: 0.50s;
 }
+
+.loading-06{
+    animation-delay: 0.60s;
+}
+
